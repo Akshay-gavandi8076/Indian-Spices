@@ -1,0 +1,32 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --deepOrange: #ff5722;
+  --lightDeepOrange: #ff8a65;
+  --mainWhite: #FFFFFF;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+body {
+  font-family: "oswald", sans-serif !important;
+  /* background: var(--mainWhite) !important; */
+  color: var(--mainDark) !important;
+}
+
+.text-title {
+  font-family: "Permanent Marker", cursive ;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-deepOrange {
+  color: var(--deepOrange);
+}
+
+.text-lightDeepOrange {
+  color: var(--lightDeepOrange);
+}
+
+
+
