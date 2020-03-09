@@ -3,21 +3,36 @@
   --lightBlue: #009ffd;
   --deepOrange: #ff5722;
   --lightDeepOrange: #ff8a65;
-  --mainWhite: #FFFFFF;
+  --mainWhite: #fafafa;
   --mainDark: #232528;
   --mainYellow: #ffa400;
 }
 
 body {
-  font-family: "oswald", sans-serif !important;
-  /* background: var(--mainWhite) !important; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+  background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
 
-.text-title {
-  font-family: "Permanent Marker", cursive ;
-  letter-spacing: 0.3rem;
+/* .nav-font {
+  font-family: 'Bungee Inline', cursive;
+  letter-spacing: 0.1rem;
+  /* text-transform: uppercase; */
+
+
+.text-logo-font {
+  font-family: 'Bungee Inline', cursive;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
+  color: var(--deepOrange);
+  font-size: 35px;
+  font-weight: bold;
+}
+.text-title {
+  font-family: 'Bungee Inline', cursive;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .text-deepOrange {
@@ -28,5 +43,24 @@ body {
   color: var(--lightDeepOrange);
 }
 
+/* CartItem btn */
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
 
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
 

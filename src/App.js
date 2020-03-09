@@ -5,20 +5,32 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import SpicesProductList from './components/SpicesProductList';
 import Details from './components/Details';
-import Cart from './components/Cart';
+import Cart from './components/Cart/Cart';
 import Default from './components/Default';
+import Modal from './components/Modal';
+// import home from './components/Home';
+import Home from './components/Home';
+import PersonalDetails from './components/PersonalDetails';
+import Header from './components/Header';
+import Login from './components/Login';
+
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
+        <Header/>
         <Navbar/>
         <Switch>
             <Route path="/details" component={Details}/>
             <Route path="/cart" component={Cart}/>        
-            <Route exact path="/" component={SpicesProductList}/>
+            <Route path="/SpicesProductList" component={SpicesProductList}/>
+            <Route path="/personaldetails" component={PersonalDetails}/>
+            <Route path="/login" component={Login}/>
+            <Route exact path="/" component={Home}/>
             <Route component={Default}/>
           </Switch>
+          <Modal/>
       </React.Fragment>  
     );
   }
