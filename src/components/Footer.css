@@ -1,0 +1,26 @@
+.footer{
+    margin-top: 30px;
+    width: auto;
+    height: 300px;
+    background-color:black;
+    bottom: 0;
+    padding-top: 1em;
+    position: relative;
+}
+.col{
+    margin-top: 10px;
+    color: tomato;
+    font-size: 18px;
+}
+.footer-col{
+    width: 100px;
+}
+.climg{
+    width: 80px;
+    height: 40px;
+    padding: 5px;
+    font-weight: bold;
+}
+.text{
+    margin-left: 400px;
+}
