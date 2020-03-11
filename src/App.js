@@ -13,11 +13,15 @@ import Home from './components/Home';
 import PersonalDetails from './components/PersonalDetails';
 import Header from './components/Header';
 import Login from './components/Login';
+import Footer from './components/Footer';
+
 
 
 class App extends Component {
   render() {
     return (
+      <div className="page-container">
+      <div className="content-wrap">
       <React.Fragment>
         <Header/>
         <Navbar/>
@@ -32,6 +36,9 @@ class App extends Component {
           </Switch>
           <Modal/>
       </React.Fragment>  
+      </div>
+          <Footer/>
+    </div>
     );
   }
 }
