@@ -101,10 +101,6 @@ const Photos = [
             </Slider>
               </div>
             </div>
-
-       
-           
-
            
         );
       }
