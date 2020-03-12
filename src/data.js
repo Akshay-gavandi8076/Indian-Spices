@@ -97,6 +97,39 @@ export const storeSpicesProducts = [
         inCart: false,
         count: 0,
         total: 0
+    },
+    {
+        id: 10,
+        title: "coriander seed",
+        img: "img/coriander seed(Dhania).jpg",
+        price: 10,
+        company: "TRS",
+        info: "Made from Mango.",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
+        id: 11,
+        title: "cumin seed",
+        img: "img/cumin-seed(jeera).jpg",
+        price: 10,
+        company: "TRS",
+        info: "Made from Mango.",
+        inCart: false,
+        count: 0,
+        total: 0
+    },
+    {
+        id: 12,
+        title: "Curry leaves",
+        img: "img/Curry_leaves(Kadi patta).jpg",
+        price: 10,
+        company: "TRS",
+        info: "Made from Mango.",
+        inCart: false,
+        count: 0,
+        total: 0
     }
 ];
 
