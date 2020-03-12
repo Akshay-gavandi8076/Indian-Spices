@@ -24,13 +24,27 @@ const NavWrapper = styled.nav `
      width: 180px;
      height: 110px;
     }
+
+    .fontEffect {
+        font-size: 21px;
+        color: var(--deepOrange);
+        /* font-style:italic; */
+        font-weight: bold;
+    }
+
+    .left {
+        margin-left: 190px;
+    }
 `
 
 export default function Header() {
     return (
         <NavWrapper className="navbar navbar-expand-sm px-sm-5 mt-50">      
+
+            <label className= "fontEffect">+4915124429654 <br/> indian-spices@gmail.com</label> 
+
             <ul className="navbar-nav">
-                <li className="ml-0 text-logo-font ">
+                <li className=" text-logo-font left ">
                         ~Indian Spices~
                 </li>
             </ul>  
