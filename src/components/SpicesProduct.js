@@ -44,7 +44,7 @@ export default class SpicesProduct extends Component {
                             {title}
                         </p>
                         <h5 className="text-blue text-italic mob-0">
-                            <span className="mr-0">$</span>
+                            <span className="mr-0">€</span>
                             {price}
                         </h5>
                     </div>
