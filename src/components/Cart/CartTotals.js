@@ -19,25 +19,23 @@ export default function CartTotals({value}) {
                     <h5>
                         <span className="text-title">
                             subtotal :</span>
-                            <strong>$ {cartSubTotal} </strong>
+                            <strong>€ {cartSubTotal} </strong>
                     </h5>
                     <h5>
                         <span className="text-title">
                             tax :</span>
-                            <strong>$ {cartTax} </strong>
+                            <strong>€ {cartTax} </strong>
                     </h5>
                     <h5>
                         <span className="text-title">
                             total :</span>
-                            <strong>$ {cartTotal} </strong>
+                            <strong>€ {cartTotal} </strong>
                     </h5>
                   
                     
                     <Link to="/personaldetails">
-                        <button className="btn btn-outline-danger text-uppercase mb-3 px-5" 
-                        type="button">
-                            check out
-                        </button>
+                       <ButtonCheckoutContainer className="text-uppercase mb-3 px-5"> checkout 
+                        </ButtonCheckoutContainer>
                     </Link>
                   </div>
               </div>
@@ -45,3 +43,22 @@ export default function CartTotals({value}) {
       </React.Fragment>  
     );
 }
+
+
+const ButtonCheckoutContainer = styled.button`
+    text-transform:capitalize;
+    border-radius: 5px;
+    width: 185px;
+    height: 40px ;
+    font-size: 1rem;
+    background:transparent;
+    border:0.05rem solid var(--Green);
+    color:var(--Green);
+    padding: 5px;
+    cursor:pointer;
+
+    &:hover {
+        background:var(--Green);
+        color: white;
+    }
+`
